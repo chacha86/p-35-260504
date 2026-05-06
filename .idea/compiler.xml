@@ -13,9 +13,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="rest-api" options="-parameters" />
-      <module name="rest-api.main" options="-parameters" />
-      <module name="rest-api.test" options="-parameters" />
+      <module name="rest-api" options="-parameters -proc:none" />
+      <module name="rest-api.main" options="-parameters -proc:none" />
+      <module name="rest-api.test" options="-parameters -proc:none" />
     </option>
   </component>
 </project>
